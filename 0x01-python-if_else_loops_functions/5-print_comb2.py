@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-numbers = map(lambda num: f"{num:02d}", range(0, 99))
-print(', '.join(numbers) + ', 99')
-
+for i in range(100):
+    if i == 99:
+        print("{:02d}".format(i))
+    else:
+        print("{:02d}".format(i), end= ', ')
