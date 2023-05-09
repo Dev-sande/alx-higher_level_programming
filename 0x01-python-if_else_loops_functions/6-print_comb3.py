@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for num in range(0, 90):
-    if num % 10 > num // 10:
-        print(f"{num:02d}", end='')
-        if num != 89 and num % 10 > num // 10:
-            print(', ', end='')
+for a in range(10):
+    for units in range(a+1, 10):
+        print("{:d}{:d}".format(a, units), end="")
+        if a != 8 or units != 9:
+            print(", ", end="")
 print()
