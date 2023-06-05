@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 
-This module is composed by a class that defines a Rectangle
+This class represents a rectangle
 
 
 """
@@ -11,7 +11,7 @@ class Rectangle:
     """ Class that defines a rectangle """
 
     def __init__(self, width=0, height=0):
-        """ Method that initializes the instance
+        """ Initializes a new instance of the Rectangle class
 
         Args:
             width: width of the rectangle
